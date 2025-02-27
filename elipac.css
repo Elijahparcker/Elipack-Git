@@ -1,0 +1,247 @@
+body{
+        font-family: tahoma;
+        align-items: center;
+        background-color: rgb(7, 18, 48);
+    }
+    
+    header {
+        background: white; 
+        color: red;
+        padding: 10px;  
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+}
+
+section{
+   align-items: center;
+   text-align: center;
+   align-content: center;
+}
+
+.home{
+    display:flex;
+    justify-content: space-between
+}
+ul{
+    display:flex;
+    gap: 10px;
+}
+ul li{
+    list-style: none;
+}
+ul li:hover{
+    color:black;
+}
+.About h3 {
+    display: flex;
+    width:100%;
+   justify-content: center;
+}
+.service1 h3{
+    display: flex;
+    color: red;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.service1 p{
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+ }
+ .service1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .service1 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: blue;
+ }
+    .service1 h3{
+            color: yellow;
+            text-align: center;
+            justify-content: center;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 10%
+            
+}
+.service1 p{
+            text-align: center;
+            padding-left: 10px;
+            padding-right: 10px;
+            justify-content: center;
+            border-radius: 50;
+}
+ .contact h1{
+    text-align: center;
+    margin-left: 100px;
+    justify-content: center;
+    background-color: red;
+    color: white;
+}
+ .contact h1:hover{
+    color: white;
+ }
+.about h3{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    background-color: red;
+    color: white;
+.about p{
+     text-align: justify;
+    align-items: center;
+     justify-content: space-between;
+     background-color: blue;
+     color: white;
+    }
+}
+.contact h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.contact p{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: green;
+}
+.contact1 {
+    text-align: justify;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    color: white;
+}
+.contact h1{
+   display: flex;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    color: white; 
+.contact p1{
+    text-align: center;
+    color: white;
+}
+}  
+section h2 {
+    text-align: center;
+    color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+section h2:hover {
+    color: yellow
+}
+section p {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: none; 
+    color: white;
+}
+section p:hover {
+color: black;   
+}
+section{
+    display: flex;
+    align-items: center;
+   text-align: center;
+   align-content: center;
+}
+.banner p{
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+}
+.banner h1 {
+    text-align: justify;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-size: 50px;
+} 
+    .banner h1:hover {
+     color: yellow;
+}
+.banner p1 {
+     text-align: right;
+     color: white;
+    justify-content: center;
+     font-size: 20px;
+     align-items: center;
+     background-color: yellow;   
+}
+.bt{
+    display: none;
+    margin-right: 15px;
+    margin-top: 10px;
+    color: green;   
+}
+@media(max-width:900px){
+    .btn{
+        display: flex; 
+}
+.menu {
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    left: -200%;
+    width: 25%;
+    height: 50vh;
+    transition: 0.5s;
+    background-color: green;
+    float: left;
+    text-align: center;
+}
+.menu li {
+    margin: 5px;
+    display: inline;
+    text-align: center;
+    line-height: 20px 
+    floleft;
+}
+.menu.active{
+    left: 0;
+    }
+}
+
+.rotating-text{
+    font-size: 24px;
+    font-weight: bold;
+    color: #3333;
+    display: inline-block;
+    animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);   
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.bxs-heart {
+    font-size: 40px'
+    color: red;
+    margin-right: 10px;
+}
